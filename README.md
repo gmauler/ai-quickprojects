@@ -18,7 +18,7 @@ Cada pasta contém um projeto autónomo com código e notas.
 | 03 | Resumidor de texto via CLI | ✅  |
 | 04 | GitHub Actions: lint automático | ✅  |
 | 05 | Bot de perguntas & respostas com histórico | ✅ |
-| 06 | Analisador de emails com IA | ⏳ |
+| 06 | Analisador de emails com IA | ✅  |
 | 07 | Webhook simples com FastAPI | ⏳ |
 | 08 | GitHub Actions: deploy automático | ⏳ |
 | 09 | Gerador de changelogs com IA | ⏳ |
