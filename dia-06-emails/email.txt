@@ -1,0 +1,13 @@
+De: joao.silva@empresa.com
+Para: gustavo@empresa.com
+Assunto: URGENTE - Sistema em baixo
+
+Gustavo,
+
+O servidor de producao esta em baixo desde as 14h.
+Os clientes nao conseguem aceder a plataforma e estamos
+a perder vendas. Precisamos de uma solucao IMEDIATA.
+
+Por favor responde assim que vires isto.
+
+Joao
