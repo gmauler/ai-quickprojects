@@ -17,7 +17,7 @@ Cada pasta contém um projeto autónomo com código e notas.
 | 02 | Hello World com a API do Claude | ✅ |
 | 03 | Resumidor de texto via CLI | ✅  |
 | 04 | GitHub Actions: lint automático | ✅  |
-| 05 | Bot de perguntas & respostas com histórico | ⏳ |
+| 05 | Bot de perguntas & respostas com histórico | ✅ |
 | 06 | Analisador de emails com IA | ⏳ |
 | 07 | Webhook simples com FastAPI | ⏳ |
 | 08 | GitHub Actions: deploy automático | ⏳ |
