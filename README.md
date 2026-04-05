@@ -22,7 +22,7 @@ Cada pasta contém um projeto autónomo com código e notas.
 | 07 | Webhook simples com FastAPI | ✅ |
 | 08 | GitHub Actions: deploy automático | ✅ |
 | 09 | Gerador de changelogs com IA | ✅ |
-| 10 | Automatizar tarefas com n8n | ⏳ |
+| 10 | Automatizar tarefas com n8n | ✅ |
 | 11 | Primeiro agente com tool use | ⏳ |
 | 12 | Agente que lê e escreve ficheiros | ⏳ |
 | 13 | RAG simples: perguntas sobre PDFs | ⏳ |
