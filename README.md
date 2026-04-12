@@ -23,9 +23,9 @@ Cada pasta contém um projeto autónomo com código e notas.
 | 08 | GitHub Actions: deploy automático | ✅ |
 | 09 | Gerador de changelogs com IA | ✅ |
 | 10 | Automatizar tarefas com n8n | ✅ |
-| 11 | Primeiro agente com tool use | ⏳ |
-| 12 | Agente que lê e escreve ficheiros | ⏳ |
-| 13 | RAG simples: perguntas sobre PDFs | ⏳ |
+| 11 | Primeiro agente com tool use | ✅ |
+| 12 | Agente que lê e escreve ficheiros | ✅ |
+| 13 | RAG simples: perguntas sobre PDFs | ✅ |
 | 14 | CI/CD completo com testes + análise IA | ⏳ |
 | 15 | Agente de research com web search | ⏳ |
 | 16 | Interface web para o agente | ⏳ |
