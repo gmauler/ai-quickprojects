@@ -26,11 +26,11 @@ def encontrar_chunks_relevantes(chunks: list[str], pergunta: str, max_chunks: in
     return "\n\n---\n\n".join(relevantes) if relevantes else "\n\n---\n\n".join(chunks[:max_chunks])
 
 def responder_pergunta(caminho_pdf: str, pergunta: str) -> str:
-    print(f"A extrair texto do PDF...")
+    print("A extrair texto do PDF...")
     chunks = extrair_texto_pdf(caminho_pdf)
     print(f"Paginas extraidas: {len(chunks)}")
 
-    print(f"A encontrar contexto relevante...")
+    print("A encontrar contexto relevante...")
     contexto = encontrar_chunks_relevantes(chunks, pergunta)
 
     response = client.messages.create(
