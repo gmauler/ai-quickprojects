@@ -1,0 +1,49 @@
+name: Testes Python
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout codigo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instala dependencias
+        run: pip install pytest anthropic
+
+      - name: Corre testes
+        id: testes
+        run: |
+          cd dia-14-ci-testes
+          python -m pytest test_calculadora.py -v 2>&1 | tee test_output.txt
+          echo "exit_code=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
+      - name: Analisa erros com Claude
+        if: failure()
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -c "
+          import anthropic, os
+          client = anthropic.Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
+          with open('dia-14-ci-testes/test_output.txt') as f:
+              output = f.read()
+          msg = client.messages.create(
+              model='claude-haiku-4-5-20251001',
+              max_tokens=500,
+              messages=[{'role': 'user', 'content': f'Explica este erro de testes em linguagem simples e como corrigir:\n{output}'}]
+          )
+          print('=== ANALISE DO CLAUDE ===')
+          print(msg.content[0].text)
+          "
