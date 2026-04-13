@@ -1,0 +1,23 @@
+ÍNDICE DE FICHEIROS
+====================
+
+1. compras.txt
+   - Leite
+   - Pao
+   - Ovos
+   - Queijo
+   Descrição: Lista de compras a fazer
+
+2. ideias.txt
+   - Projeto de app de receitas
+   - Blog sobre viagens
+   - Curso de fotografia
+   Descrição: Ideias de projetos/atividades futuras
+
+3. notas.txt
+   - Reuniao amanha as 10h com o cliente.
+   - Lembrar de preparar apresentacao.
+   Descrição: Notas e lembretes importantes
+
+====================
+Total de ficheiros: 3

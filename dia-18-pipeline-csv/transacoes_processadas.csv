@@ -1,0 +1,11 @@
+id,descricao,valor,categoria,essencial,emoji
+1,Uber para o aeroporto,23.5,Transporte,True,🚗
+2,Supermercado Continente,87.3,Alimentacao,True,🛒
+3,Netflix mensal,12.99,Entretenimento,False,🎬
+4,Almoço restaurante italiano,34.0,Alimentacao,False,🍽️
+5,Gasolina posto BP,65.0,Transporte,True,⛽
+6,Farmácia medicamentos,18.5,Saude,True,💊
+7,Amazon livros programação,45.0,Educacao,False,📚
+8,Ginásio mensalidade,35.0,Desporto,False,💪
+9,Electricidade fatura,89.0,Casa,True,⚡
+10,Cinema bilhetes,24.0,Entretenimento,False,🎭
